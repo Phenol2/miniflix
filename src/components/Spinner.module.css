@@ -1,0 +1,29 @@
+.loader {
+  display: grid;
+  place-items: center;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #05193b;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  position: relative;
+}
+
+ @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper{
+  width: 100vw;
+  height: 60vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+

@@ -1,0 +1,121 @@
+.movies-container{
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
+  margin-inline: 10px;
+}
+
+.movie-container{
+  width: 90%;
+  position: relative;
+}
+
+.movie-container .img{
+  margin: 12px 5px;
+  border-radius: 10px;
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.movie-container .imgs{
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.size{
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  /*filter: invert(1);*/
+  color: #fff;
+}
+
+
+.case{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.span{
+  padding: 30px 0px 3px 20px;
+  font-weight: bold;
+}
+
+.movie-details{
+  width: 80%;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yeartype{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 4px 6px;
+  border-radius: 8px;
+}
+
+.type{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.year{
+  margin-right: 10px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  padding: 4px 6px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.movies{
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+  filter: invert(0.8);
+  margin-right: 2px;
+}
+
+.mark{
+  width: 30px;
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+  padding: 6px 8px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

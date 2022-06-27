@@ -1,0 +1,31 @@
+.nav-menus{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-position: cover;
+}
+
+.logo svg{
+  color: blue;
+}
+
+.active span svg{
+  color: red;
+}
+
+.fish svg{
+  color: #fff;
+}
+
+
+
+/*.active{
+  color: red;
+}*/
